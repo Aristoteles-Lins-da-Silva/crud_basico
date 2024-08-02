@@ -2,7 +2,7 @@
 $host = 'localhost:3306';
 $db = 'carros_ifpe';
 $user = 'root';
-$pass = '1234';
+$pass = 'root';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
